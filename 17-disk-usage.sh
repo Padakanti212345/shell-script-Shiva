@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DISK_USAGE=$(df -hT | grep -vE 'tmp|File')
+DISK_USAGE=$(df -hT | grep -vE 'tmp|File')     (  Here This command Means it shows  Outpu of  df  -hT  with exclude of tmp , File  information   , -v exclude the information of tmp|File   
 DISK_THRESHOLD=1
 message=""
 
